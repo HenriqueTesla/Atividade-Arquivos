@@ -39,9 +39,12 @@ ManipulacaoArquivosJava/
 
 ---
 
-💡 Observações
-Se você tentar ler um arquivo que não existe, ocorrerá um erro de FileNotFoundException.
+| Arquivo                   | Função                                                                 |
+|---------------------------|------------------------------------------------------------------------|
+| EscritorSimples.java      | Cria um arquivo frase.txt e escreve uma frase                         |
+| LeitorSimples.java        | Lê o conteúdo do arquivo frase.txt e exibe no terminal                |
+| Cliente.java              | Define a estrutura da classe Cliente (nome e idade)                   |
+| GravadorDeClientes.java   | Cria uma lista de clientes e salva no arquivo clientes.txt            |
+| LeitorDeClientes.java     | Lê o arquivo clientes.txt e recria os objetos Cliente                 |
 
-O projeto utiliza try-with-resources para garantir que os arquivos sejam fechados corretamente.
-
-O formato usado no arquivo de clientes é nome;idade. Você pode facilmente adaptar para CSV ou JSON no futuro.
+---
